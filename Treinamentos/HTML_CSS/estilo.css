@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: #DCDCDC;
+    text-align:center;
+}
+.botao{
+    color: #DCDCDC;
+    font-family:arial;
+    text-decoration:underline;
+    margin-right:15px;
+    justify-content: center;
+    display: flex;
+
+}
+
+img{
+    margin-top:60px;
+    width:350px;
+    height:300px;
+    margin-left:20px;
+    text-align:center;
+}
