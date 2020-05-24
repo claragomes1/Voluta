@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+
+
+
+header#header-main{
+    height: 300px;
+    background-color: #212121;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#header-main h1{
+    font-family: 'Sifonn';
+    font-size: 80px;
+    letter-spacing: .9rem;
+
+
+    color: #27f2ff;
+    text-align: center;
+    margin-top:80px ;
+}
+
+#header-main h2{
+    font-family: 'Lato';
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: .5rem;
+
+    margin-top: -20px;
+    color: cornsilk;
+}
+
+@media(max-width:414px){/*Galaxy s5, Iphone 6, plus*/
+    header#header-main{
+        height: 200px;
+    }
+
+    #header-main h1{
+        font-family: 'Sifonn';
+        font-size: 60px;
+        margin-top:40px ;
+    }
+
+    #header-main h2{
+        font-size: 40px; 
+    }
+
+}
+
+@font-face{
+    font-family: 'Sifonn';
+    src: url("./fonts/SIFONN_BASIC_OUTLINE.otf")
+}
+
+@font-face{
+    font-family: 'Lato';
+    src: url("./fonts/Lato-Regular.ttf");
+}

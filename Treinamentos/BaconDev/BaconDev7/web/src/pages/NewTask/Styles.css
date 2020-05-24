@@ -1,0 +1,133 @@
+
+.add-task{
+  width: 100%;
+  margin: 60px 0 60px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-task form{
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 100%;
+justify-content: center;
+}
+
+.add-task form .input-add{
+  width: 90%;
+  margin-top: 10px;
+}
+
+.add-task form .input-add input{
+  border-radius: 25px;
+  padding-left: 20px;
+  color: aliceblue;
+  background-color: #212121;
+  border-top: #48F2FD;
+  border-bottom: #48F2FD;
+  border-left: #48F2FD;
+  border-right: #48F2FD;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.add-task form .btn-add{
+  width: 10%;
+  float: right;
+}
+
+.add-task form .btn-add button{
+  width:50px;  
+  height:50px;
+  border-radius: 50px;
+
+  background: #2AB9D4;
+  border: none;
+  cursor: pointer;
+  
+  font-size: 30px;
+  font-weight: 600;
+  float: right;
+}
+
+.add-task form .btn-add button .material-icons{
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 6px;
+  color: aliceblue;
+}
+
+.add-task form .btn-add button:hover{
+  background-color: rgb(15, 178, 219);
+}
+
+
+@media(max-width:370px){
+
+  .add-task{
+    margin: 20px 10px 20px 0;
+  }
+
+  .add-task form .input-add input{
+ 
+    padding-right: 15px;
+    font-size: 13px;
+
+  }  
+  
+  .add-task form .btn-add button{
+    width:45px;  
+    height:45px;
+    margin-left: 15px;
+    margin-right: 20px;
+    font-size: 30px;
+  }
+  
+  .add-task form .btn-add button .material-icons{
+    font-size: 30px;
+    padding-top: 6px;
+  }
+  
+}
+
+@media(max-width:400px){ 
+
+  .add-task{
+    margin: 20px 10px 20px 0;
+  }
+
+}
+
+@media(max-width:640px){
+  .add-task form .btn-add{
+    padding-left: 70px;
+
+  }
+
+
+}
+
+@media(max-width:1350px){
+  .add-task form .btn-add{
+    margin-left: 30px;
+
+  }
+
+}
+
+@media(max-width:3120px){
+  .add-task form .btn-add button{
+    margin-right: 10px;
+  }
+
+}
+
+
+
+
+
+
