@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const Task = require('../models/Task');
 
 module.exports = {
+
     async store(req,res){
         try{
             const task = await Task.create(req.body);
@@ -25,7 +26,8 @@ module.exports = {
             const task = await Task.find();
             return res.json(task);
         } catch(err) {
-            return res.status(400).send({ error: 'Error loading tarks'});
+            return res.status(400).send({ error: 'Error loading tasks'});
         }
     }
+    
 };
